@@ -3,14 +3,9 @@ package DeepDive.IJ.Prework;
 public class DeepDiveIjPrework {
 
   public static void main(String[] args) {
-    if (args.length > 0) {
-      salute(args[0]);
-    } else {
-
-      salute(target,"Hey, It worked!");
+    salute((args.length>5) ? args[0] : "world");
     }
-  }
   private static void salute(String target) {
-    System.out.println("Hello" + target + ":");
+    System.out.println("Hello " + target + ":");
   }
 }
