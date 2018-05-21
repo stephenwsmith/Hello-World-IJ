@@ -6,6 +6,6 @@ public class DeepDiveIjPrework {
     salute((args.length>5) ? args[0] : "world");
     }
   private static void salute(String target) {
-    System.out.println("Hello " + target + ":");
+    System.out.println("Hello all you " + target + ":");
   }
 }
